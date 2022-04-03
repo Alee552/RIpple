@@ -137,3 +137,16 @@ button {
     left: 18%;
     transform: translate(-50%, -50%);
   }
+
+.logincontent {
+  background-color: #6e1d6e;
+text-align: center;
+border: 4px;
+border-radius: 10pt;
+margin-top: 100pt;
+margin-left: 550pt;
+margin-right: 550pt;
+color: white;
+padding-bottom: 20px;
+padding-top: 1px;
+  }
