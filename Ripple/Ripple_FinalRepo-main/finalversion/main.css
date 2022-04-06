@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-    background-color: rgb(235,232,247);
+    background-color: #FABA75;
     color: black;
     font-family: Arial;
     font-size:16px;
@@ -28,12 +28,15 @@ h3 {
     font-size: 25px;
 }
 
+p {
+  font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue";
+}
 a {
     color: black;
 }
 button {
     display: inline-block;
-    background-color: #483348;
+    background-color: #cb722a;
     border-radius: 10px;
     border: 4px single #cccccc;
     color: #eeeeee;
@@ -54,7 +57,7 @@ button {
   }
 
   button:hover {
-    background-color: #d8b1d8;
+    background-color: #774304;
   }
   
   button:hover span:after {
@@ -139,7 +142,7 @@ button {
   }
 
 .logincontent {
-  background-color: #6e1d6e;
+  background-color: #F58A07;
 text-align: center;
 border: 4px;
 border-radius: 10pt;
