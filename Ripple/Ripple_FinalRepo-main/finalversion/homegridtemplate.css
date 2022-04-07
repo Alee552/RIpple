@@ -26,6 +26,11 @@
         grid-row: 3;
     }
     
+    .navigation a.active {
+        background-color: #774304;
+        color: white;
+      }
+
     .navigation {
         grid-column: 1/5;
         grid-row: 4;
@@ -50,13 +55,12 @@
             padding: 16px 16px;
             text-decoration: none;
             padding-left: 20px;
-            padding-right: 20px;
-           
-           
-          
+            padding-right: 20px;         
           }
+
+
           .navigation a:hover {
-            background-color:  #d8b1d8;
+            background-color:  #774304;
            
           }
 }
@@ -109,11 +113,11 @@
         display: block;
         }
       .navigation a.active {
-        background-color: #d8b1d8;
+        background-color: #774304;
         color: white;
       }
       .navigation a:hover {
-        background-color:  #d8b1d8;
+        background-color:  #774304;
         color: black;
         padding:12px;
       }
