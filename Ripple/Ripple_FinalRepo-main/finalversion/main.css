@@ -5,6 +5,9 @@ body {
     color: black;
     font-family: Arial;
     font-size:16px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
 
     
 
