@@ -109,11 +109,11 @@
         display: block;
         }
       .navigation a.active {
-        background-color: #d8b1d8;
+        background-color: #d36d3e;
         color: white;
       }
       .navigation a:hover {
-        background-color:  #e07644;
+        background-color:  #d36d3e;
         color: black;
         padding:12px;
       }
