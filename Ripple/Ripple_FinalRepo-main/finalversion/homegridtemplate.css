@@ -95,7 +95,7 @@
         left: 0;
         top: 90px;
     
-        background-color: #483348;
+        background-color: #e9936b;
         text-align: justify;
       
         }
@@ -113,7 +113,7 @@
         color: white;
       }
       .navigation a:hover {
-        background-color:  #d8b1d8;
+        background-color:  #e07644;
         color: black;
         padding:12px;
       }
