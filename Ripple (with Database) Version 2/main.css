@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-    background-color: #ffebeb;
+    background-color: #fff3ee;
     color: black;
-    font-family: Arial;
+    font-family: Helvetica;
     font-size:16px;
   padding: 20px;
     max-width: 500px;
@@ -11,37 +11,35 @@ body {
     text-align: center;
 }
 
-    
-
 
 .fieldset{
   border-color: #483348;
   border-style: solid;
 }
 h1 {
-    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue";
+    font-family: "Helvetica";
     font-size: 40px;
 }
 
 h2 {
-    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue";
+    font-family: "Helvetica";
     font-size: 31px;
 }
 
 h3 {
-    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue";
+    font-family: "helvetica";
     font-size: 25px;
 }
 
 p {
-  font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue";
+  font-family: "Helvetica";
 }
 a {
     color: black;
 }
 button {
     display: inline-block;
-    background-color: #cb722a;
+    background-color: #d36d3e;
     border-radius: 10px;
     border: 4px single #cccccc;
     color: #eeeeee;
@@ -62,7 +60,7 @@ button {
   }
 
   button:hover {
-    background-color: #774304;
+    background-color: #eea887;
   }
   
   button:hover span:after {
