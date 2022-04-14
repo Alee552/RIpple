@@ -20,7 +20,6 @@ session_start();
        <div class="grid-container">
    
             <header>
-            <a href="index.php">Logout</a>
                     <a href="home.php"><img id="logoimage" src="images/logo2.png" alt="Logo"></a>
                     <a href="settings.html"><img id="settingimage" src="images/set.png" alt="setting"></a>
                   

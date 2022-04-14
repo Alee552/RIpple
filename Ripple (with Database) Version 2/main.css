@@ -87,10 +87,21 @@ button {
     height: 20px;
     width: 20px;
 }
-  
 
-     
- 
+#loveimage2 {
+  height: 20px;
+  width: 20px;
+}
+
+#loveimage3 {
+  height: 20px;
+  width: 20px;
+}
+
+#loveimage4 {
+  height: 20px;
+  width: 20px;
+}
  
   
   #settingimage{
@@ -125,12 +136,13 @@ button {
   }
 
   .searchButton {
-    width: 60px;
+    width: 140px;
     border: 1px solid #483348;
+    border-radius: 10pt;
     background: #483348;
     text-align: center;
+    margin: auto;
     color: #fff;
-    
     cursor: pointer;
     font-size: 16px;
   }
