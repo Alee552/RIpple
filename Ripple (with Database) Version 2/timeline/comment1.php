@@ -21,7 +21,7 @@
             <p><strong>GenericUser:</strong></p>
             <p>I have a really terrible opinion I'd love to share with everyone.</p>
             <button onclick="imagefun3()" value="Change Image3"><img id="loveimage3" src="../images/love.png" alt="like"></button>
-                <button><img id="timeimage" src="../images/repost.png" alt="repost"></button><br>
+            <button onclick="imagefun7()" value="Change Icon"><img id="timeimage3" src="../images/repost.png" alt="like"></button>
         </fieldset>
         <form action="" method="POST">
         <label>Comment:<br><textarea cols="45" rows="5" name="Comment1"></textarea></label><br>
@@ -31,24 +31,23 @@
 
         <?php
  if (isset($_POST['Submit'])){
-    echo $_POST['Submit'];
 
   $Comment = $_POST['Comment1'];
 
   #Get old comments
-  $old = fopen("comment1.txt", "r+t");
+  $old = fopen("comment1.html", "r+t");
   $old_comments = fread($old, 1024);
 
   #Delete everything, write down new and old comments
-  $write = fopen("comment1.txt", "w+");
-  $string = "<br>".$Comment."<br><br>\n".$old_comments;
+  $write = fopen("comment1.html", "w+");
+  $string = "<br>".$Comment."<br><br>".$old_comments;
   fwrite($write, $string);
   fclose($write);
   fclose($old);
  }
 
  #Read comments
- $read = fopen("comment1.txt", "r+t");
+ $read = fopen("comment1.html", "r+t");
  echo "<br><br><b>Comments</b><hr>".fread($read, 1024);
  fclose($read);
 ?>

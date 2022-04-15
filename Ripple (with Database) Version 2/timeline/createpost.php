@@ -13,7 +13,6 @@
                 <a href="../home.php"><img id="logoimage" src="../images/logo2.png" alt="Logo"></a>
                 <a href="../settings.html"><img id="settingimage" src="../images/set.png" alt="setting"></a>
         </header>
-            <div class="header"><h3>Create Post</h3></div>
             <div class="main">
         <form action="" method="POST">
             <label>Topic:<br><input type="text" name="Name" height="10" width="50"><br></label><br>
@@ -27,26 +26,26 @@
 
         <?php
  if (isset($_POST['Submit'])){
-    echo $_POST['Submit'];
   $Name = $_POST['Name'];
   $Comment = $_POST['Comment'];
 
   #Get old comments
-  $old = fopen("comments.txt", "r+t");
+  $old = fopen("comments.html", "r+t");
   $old_comments = fread($old, 1024);
 
   #Delete everything, write down new and old comments
-  $write = fopen("comments.txt", "w+");
-  $string = "<b>".$Name."</b><br>".$Comment."<br><br>\n".$old_comments;
+  $write = fopen("comments.html", "w+");
+  $string = "<b>".$Name."</b><br>".$Comment."<br><br>".$old_comments;
   fwrite($write, $string);
   fclose($write);
   fclose($old);
  }
 
  #Read comments
- $read = fopen("comments.txt", "r+t");
+ $read = fopen("comments.html", "r+t");
  echo "<br><br><b>Posts</b><hr>".fread($read, 1024);
  fclose($read);
+ 
 
 ?>
         <div class="navigation"> 
