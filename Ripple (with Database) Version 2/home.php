@@ -34,6 +34,9 @@ session_start();
             <br><br>
             <em>Disclaimor: This platform should never be used as a primary source for treatment or habilitation. If you are experiencing any negative or suicidal thoughts, please contact your local phycisian or psychiatrist.
                 Your life matters. </em></div>
+            <div>
+                <em><p>If you are experiencing a crisis, please contact the National Suicide Prevention Lifeline website or contact them at <a href="tel:18002738255">1-800-273-8255.</a></p></em></div>
+            </div>
         </p>
         <div class="navigation"> 
             
