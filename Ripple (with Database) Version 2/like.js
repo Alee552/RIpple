@@ -37,3 +37,4 @@ function imagefun4() {
         Image_Id.src = "../images/love.png";
     }
 }  
+
