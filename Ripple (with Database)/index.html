@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <!-- The "INDEX" page here functions as the login page-->
-<html lang="en">
+<html lang="en" dir="ltr">
     <head>
-        <title>Group 2- Interaction Design</title>
+        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
+        
+        
+        <title>Group 2- Interaction Design</title>
+        <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="homegridtemplate.css">
-        <link rel="stylesheet" href="main.css">
-
     </head>
+
     <body>
-        <div class="grid-container">
-        <div class="main">
-            <div class="logincontent"> <h2>Login:</h2>
-            <form method="get" action="home.html">
-                <p><b>Username:</b> <input type="text" value=""></p>
-                <p><b>Password:</b> <input type="text" value=""></p>
-                <br>
-                <button type="submit">Login</button>
-                <button type="submit">Create an Account</button>
+        
+            <div class="center"> 
+            <h1>Login</h1>
+            <form method="post" action="home.html">
+                <div class="txt_field">
+                    <input type="text" value=""  required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" value="" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="pass">Forgot Password?</div>
+                <input type="submit" value="Login">
+                <div class="signup_link">
+                    ♡ <a href="#">Signup</a> ♡
+                </div>
             </form>
+            
         </div>
-    </div>
-           </div>
-       
+        
+
     </body>
-</html>
+</html> 
