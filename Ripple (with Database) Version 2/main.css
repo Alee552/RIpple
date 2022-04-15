@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background-color: #fff3ee;
+    color: black;
+    font-family: Helvetica;
+    font-size:16px;
+  padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.fieldset{
+  border-color: #483348;
+  border-style: solid;
+}
+h1 {
+    font-family: "Helvetica";
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "Helvetica";
+    font-size: 31px;
+}
+
+h3 {
+    font-family: "helvetica";
+    font-size: 25px;
+}
+
+p {
+  font-family: "Helvetica";
+}
+a {
+    color: black;
+}
+button {
+    display: inline-block;
+    background-color: #d36d3e;
+    border-radius: 10px;
+    border: 4px single #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 40px;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  button:hover {
+    background-color: #eea887;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ #logoimage{
+     height: 130px;
+     width:150px;
+     position: absolute;
+     top: -13px;
+     left: -17px;
+ }
+     
+#navimage {
+    height: 40px;
+    width: 40px;
+}
+#timeimage {
+    height: 20px;
+    width: 20px;
+}
+#loveimage {
+    height: 20px;
+    width: 20px;
+}
+
+#loveimage2 {
+  height: 20px;
+  width: 20px;
+}
+
+#loveimage3 {
+  height: 20px;
+  width: 20px;
+}
+
+#loveimage4 {
+  height: 20px;
+  width: 20px;
+}
+ 
+  
+  #settingimage{
+      height: 35px;
+      width: 35px;
+      position: absolute;
+      top: 30px;
+      right: 30px;
+   
+  }
+  
+  .search {
+    width: 200px;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 200px;
+
+    border: 3px solid #483348;
+    padding: 5px;
+    height: 30px;
+    color:#000000;
+
+  }
+
+  .searchTerm:focus{
+    color: black;
+    height: 30px;
+  
+  }
+
+  .searchButton {
+    width: 140px;
+    border: 1px solid #483348;
+    border-radius: 10pt;
+    background: #483348;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .wrap{
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+  }
+
+.logincontent {
+  background-color: #F58A07;
+text-align: center;
+border: 4px;
+border-radius: 10pt;
+margin-top: 100pt;
+margin-left: 550pt;
+margin-right: 550pt;
+color: white;
+padding-bottom: 20px;
+padding-top: 1px;
+  }
