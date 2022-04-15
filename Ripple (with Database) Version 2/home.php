@@ -24,12 +24,17 @@ session_start();
                     <a href="settings.html"><img id="settingimage" src="images/set.png" alt="setting"></a>
                   
             </header>
-           
-
+    
         <div class="header"></div>
         <div class="subheader"></div>
         <div class="main"><p><strong>Welcome, <?php echo $user_data['user_name']; ?></strong>
-        </p><p><em>"Believe you can and you're halfway there"</em>  -Theodore Roosevelt</p><br></div>
+        </p><p><em>"Believe you can and you're halfway there"</em>  -Theodore Roosevelt</p><br>
+        <p>Greetings! Welcome to Ripple, our social platform that is devoted to connecting you with other peers who struggle with their mental health on a day to day basis.
+            We are here to help you and give you the opportunity to share your experience with other's who would understand these predicaments far better than the occassional doctor or psychiatrist.
+            <br><br>
+            <em>Disclaimor: This platform should never be used as a primary source for treatment or habilitation. If you are experiencing any negative or suicidal thoughts, please contact your local phycisian or psychiatrist.
+                Your life matters. </em></div>
+        </p>
         <div class="navigation"> 
             
             <nav>

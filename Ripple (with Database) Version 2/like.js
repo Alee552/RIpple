@@ -37,3 +37,45 @@ function imagefun4() {
         Image_Id.src = "../images/love.png";
     }
 }  
+
+function imagefun5() {
+    var Image_Id = document.getElementById('timeimage');
+    if (Image_Id.src.match("images/repost.png")) {
+        Image_Id.src = "images/repostblue.png";
+    }
+    else {
+        Image_Id.src = "images/repost.png";
+    }
+}  
+
+function imagefun6() {
+    var Image_Id = document.getElementById('timeimage2');
+    if (Image_Id.src.match("images/repost.png")) {
+        Image_Id.src = "images/repostblue.png";
+    }
+    else {
+        Image_Id.src = "images/repost.png";
+    }
+}  
+
+function imagefun7() {
+    var Image_Id = document.getElementById('timeimage3');
+    if (Image_Id.src.match("../images/repost.png")) {
+        Image_Id.src = "../images/repostblue.png";
+    }
+    else {
+        Image_Id.src = "../images/repost.png";
+    }
+}  
+
+function imagefun8() {
+    var Image_Id = document.getElementById('timeimage4');
+    if (Image_Id.src.match("../images/repost.png")) {
+        Image_Id.src = "../images/repostblue.png";
+    }
+    else {
+        Image_Id.src = "../images/repost.png";
+    }
+}  
+
+
